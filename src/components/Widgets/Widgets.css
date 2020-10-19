@@ -1,0 +1,75 @@
+.widgets {
+    flex: 0.3;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .widgets {
+        display: none;
+    }
+}
+
+.widgets__signin {
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.widgets__signin > h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.widgets__signin > small {
+    font-weight: 400;
+    font-size: 14px;
+    color: gray;
+}
+
+.widgets__signin > button {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--twitter-color);
+    color: white;
+    text-transform: inherit;
+}
+
+.widgets__signin > button:hover {
+    background-color:  #81cfff;
+}
+
+.widgets__input {
+    display: flex;
+    align-items: center;
+    background-color: var(--twitter-background);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.widgets__input > input {
+    border: none;
+    background-color: var(--twitter-background);
+}
+
+.widgets__searchIcon {
+    color: gray;
+}
+
+.widgets__widgetsContainer {
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+}
+
+.widgets__widgetsContainer > h3 {
+    font-size: 18px;
+    font-weight: 800;
+}

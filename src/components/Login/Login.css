@@ -1,0 +1,32 @@
+.login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.login__twitterIcon {
+    color: var(--twitter-color);
+    font-size: 200px!important;
+}
+
+.login > h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.login > h4 {
+    margin-bottom: 10px;
+}
+.login > button {
+    background: var(--twitter-color);
+    color: white;
+    text-transform: inherit;
+    border: none;
+    padding: 10px 100px;
+    border-radius: 30px;
+}
+.login > button:hover {
+    background-color: rgb(11, 164, 224);
+}
